@@ -56,15 +56,18 @@ h4
 	width: inherit;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	list-style: none;
 	display: none;
 	padding: 10px;
 }
-.locations:hover + .popover
+ul
+{
+	list-style: none;
+}
+.locations:hover > .popover
 {
 	display: block;
 }
-.amenities:hover + .popover
+.amenities:hover > .popover
 {
 	display: block;
 }
