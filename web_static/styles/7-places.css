@@ -1,7 +1,7 @@
 .places h1
 {
 	font-size: 30px;
-        grid-column: 1 / span 2;
+        width: 100%;
 }
 .places h2
 {
@@ -10,10 +10,9 @@
 .places
 {
         text-align: left;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-auto-flow: row;
-        overflow: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
 }
 article
 {
@@ -23,5 +22,4 @@ article
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
 	text-align: center;
-        
 }
